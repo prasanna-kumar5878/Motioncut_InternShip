@@ -45,20 +45,18 @@ h3 {
 
 .contact-links {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    gap: 15px; /* Adjusted for icon spacing */
     margin-top: 10px;
 }
 
 .contact-links a {
-    font-family: 'Anek Telugu', sans-serif;
-    color: #000000; /* Black for paragraph text */
+    color: #000000; /* Black for icons */
+    font-size: 24px; /* Icon size */
     text-decoration: none;
-    font-size: 16px;
 }
 
 .contact-links a:hover {
-    text-decoration: underline;
+    color: #007bff; /* Blue hover effect for icons */
 }
 
 /* Responsive Design */
@@ -79,5 +77,9 @@ h3 {
     .profile-img {
         width: 100px;
         height: 100px;
+    }
+
+    .contact-links a {
+        font-size: 20px; /* Smaller icons on mobile */
     }
 }
